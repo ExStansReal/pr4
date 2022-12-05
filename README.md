@@ -1,16 +1,10 @@
-# somecruzki
+Цель: реализовать кликер, в котором если выбрана светлая тема то, прибавляется по +1, если тёмная тема прибавляется +2. Реализовать список нажатий и при какой теме это было реализовано. Всё должно находиться на одном экране.
+Ход работы:
+Для начала надо установить Cubit. Для этого перехожу в EXTENSIONS и устанавливаю bloc:
+ ![image](https://user-images.githubusercontent.com/97626203/205564532-227e027e-a36f-47e0-8c73-57fde8e44428.png)
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Рисунок 25 – Установка
+Теперь перехожу в проект и переношу ссылку в проект, чтобы было всё установлено в нём:
+ 
+Рисунок 26 – Добавление зависимости
+Теперь создаю новые кубиты для кликера. Мне необходим кубит кликера, кубит для смены темы и state для сохранения информации:
