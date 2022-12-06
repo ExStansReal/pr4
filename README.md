@@ -38,6 +38,25 @@
  ![image](https://user-images.githubusercontent.com/97626203/205564707-77948434-e03a-44f2-9bbf-5539c73f1c0d.png)
 
 Рисунок 34 – Отображение логов
+
+Реализация сохранения в SharedPreferences:
+ ![image](https://user-images.githubusercontent.com/97626203/205919997-2ef00260-9377-483c-a6b6-2487d05a49b7.png)
+
+Рисунок 35 – Сохранение
+Удаление из SharedPreferences сделано через добавление новой кнопки и метод для неё:
+ 
+ ![image](https://user-images.githubusercontent.com/97626203/205919955-8fc4873b-e78a-4ccb-bc84-d8e0fe920e81.png)
+
+Рисунок 36 – Новая кнопка
+ ![image](https://user-images.githubusercontent.com/97626203/205920024-6ccf4888-d0c5-41a0-a2ce-470110094246.png)
+
+Рисунок 37 – Очищение данных
+Таймер реализован через Timer и инициируется в конструкторе:
+ ![image](https://user-images.githubusercontent.com/97626203/205920039-dd2b54c5-5c73-4121-aa6a-80a794ea324d.png)
+
+Рисунок 38 - Таймер
+
+
 Результат работы программы:
  ![image](https://user-images.githubusercontent.com/97626203/205564723-34f8aa11-32f2-4f03-8e49-739f78dbf959.png)
 
