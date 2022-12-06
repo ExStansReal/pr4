@@ -1,9 +1,13 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:somecruzki/cubit/clicker_cubit.dart';
 import 'package:somecruzki/cubit/theme_cubit.dart';
 
-void main() => runApp(MyApp());
+void main() {
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -82,6 +86,13 @@ class MyHomePage extends StatelessWidget {
                   },
                   tooltip: 'Тема',
                   child: const Icon(Icons.sunny),
+                ),
+                FloatingActionButton(
+                  onPressed: () => context
+                      .read<ClickerCubit>()
+                      .DeleteAllDataInSharedPreferences(),
+                  tooltip: 'Удаление шереда',
+                  child: const Icon(Icons.share),
                 ),
               ],
             ),
